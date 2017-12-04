@@ -7,12 +7,8 @@ class Hello extends Component {
         super(props, content);
         this.state = {
             clickCount:0,
-            message:['hello',
-            'world',
-            '!!!'],
-            listData:['我会搬砖',
-            '我会花式搬砖',
-            '不说了，我要去搬砖了']
+            message:['hello', 'world', '!!!'],
+            listData:['我会搬砖', '我会花式搬砖', '不说了，我要去搬砖了']
         }
     }
     render() {
